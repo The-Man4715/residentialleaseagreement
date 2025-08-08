@@ -27,7 +27,7 @@ It works seamlessly on **Android phones, iPhones, Windows PCs, MacBooks, tablets
 
 You can install the software by visiting the link below or using the **online version**:
 
-🔗 [Try the Online Version](https://apps.fcoinnet.com/software/3)
+🔗 [Download Software](https://apps.fcoinnet.com/software/5)
 
 ---
 
