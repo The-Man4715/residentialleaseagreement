@@ -140,8 +140,9 @@ This software is proudly developed by the team at **[fcoinnet.com](https://fcoin
 You can download a ready-to-edit residential lease agreement template in here:
 - 📄 [Download English Contract (PDF)](https://github.com/fcoinnet/residentialleaseagreement/raw/main/contract/en.pdf)
 - 📄 [Download Arabic Contract (PDF)](https://github.com/fcoinnet/residentialleaseagreement/raw/main/contract/ar.pdf)
-- 📄 [Download German Contract (PDF)](https://github.com/fcoinnet/residentialleaseagreement/raw/main/contract/de.pdf)
-- 📄 [Download Chinese (Mandarin) Contract (PDF)](https://github.com/fcoinnet/residentialleaseagreement/raw/main/contract/zh.pdf)
+- 📄 [Download indian Contract (PDF)](https://github.com/fcoinnet/residentialleaseagreement/raw/main/contract/hi.pdf)
+- 📄 [Download russian Contract (PDF)](https://github.com/fcoinnet/residentialleaseagreement/raw/main/contract/ru.pdf)
+- 📄 [Download Turkish Contract (PDF)](https://github.com/fcoinnet/residentialleaseagreement/raw/main/contract/tr.pdf)
 ---
 
 ## 📌 SEO Keywords to Help Users Find This Project
